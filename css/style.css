@@ -37,8 +37,12 @@ a {
 }
 
 #main-bio {
-  clear: both;
   width: 65%;
+}
+
+div {
+  background-color: lightgray;
+  padding: 2px 5px;
 }
 
 #contact-info {
@@ -49,14 +53,20 @@ a {
   width: 200px;
   height: 200px;
   margin-right: 20px;
-  border: solid 3px red;
+  border: solid 3px #333333;
 }
 
 h2 {
   font-size: 24px;
 }
 
-#footer {
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+  padding: 20px;
+  height: 75px;
   background-color: #333333;
   text-align: center;
 }
